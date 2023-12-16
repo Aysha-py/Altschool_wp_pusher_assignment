@@ -310,6 +310,8 @@ align-items: center;
 
 .packages{
   margin-block-end: 38px;
+  display: flex;
+  flex-direction: column;
  
 }
 .packages p::before{
@@ -322,7 +324,7 @@ align-items: center;
 .packages p{
    font-size: 16px;
   margin-block-end: 12px;
-    display: inline-block;
+  display: inline-block;
   vertical-align: middle;
 }
 .mobile-help{
@@ -395,7 +397,7 @@ align-items: center;
 }
 #checkout-container{
   margin: 0 auto;
-  padding: 10px;
+  padding: 0px;
   background-color: #fff;
 }
 .checkout-sections{
@@ -433,12 +435,17 @@ align-items: center;
 .desktop-help{
   display: none;
 }
+.help-container{
+  margin-block-start: 24px;
+  margin-block-end: 24px;
+}
 .help{
-border: 1px solid red;
 display: grid;
 place-items: center;
+margin-inline-start: 20px;
 }
-.powered-by{
- 
+input#email{
+ width:100%;
 }
+
 }
