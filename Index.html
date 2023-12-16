@@ -4,11 +4,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="">
     <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,600;1,400&family=Fraunces:ital,opsz,wght@0,9..144,800;1,9..144,200&family=Hanken+Grotesk:ital,wght@0,100;0,200;0,400;0,500;1,200;1,300&family=Lato:wght@300;400;700;900&family=Literata:ital,opsz,wght@0,7..72,200;0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,200;1,7..72,700&family=Poppins:wght@100&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
     <title>Wp Pusher</title>
     <meta name="description" content="Wp Pusher">
     <link rel="stylesheet" href="./Styles.css"/>
 </head>
 <body>
+
+
     <header>
         <nav>
             <div class="pusher-logo flex-item">
@@ -44,73 +49,84 @@
                     <form>
                         <div class="basic-information-container">
                             <div class="basic-information">
-                                 <div>
-                                <p>Your basic information</p>
-                            </div>
-                            <div class=" form-info-grid">
-                                <div class="form-info">
-                                    <label for="firstname">First Name</label>
-                                    <input type="text" name="firstname" id="firstname" placeholder="Tolu"/>
+                                <div class="basic-information-item">
+                                    <p class="item-number">1</p>
+                                    <p>Your Basic Information</p>
                                 </div>
-                                <div class="form-info">
-                                    <label for="lastname">Last Name</label>
-                                    <input type="text" name="lastname" id="lastname" placeholder="Doe"/>
+                                
+                                <div class="form-info-grid">
+                                    <div class="form-info">
+                                        <label for="firstname">First Name</label>
+                                        <input type="text" name="firstname" id="firstname" placeholder="Tolu"/>
+                                    </div>
+                                    <div class="form-info">
+                                        <label for="lastname">Last Name</label>
+                                        <input type="text" name="lastname" id="lastname" placeholder="Doe"/>
+                                    </div>
+                                </div>
+                                <div class="form-info form-info-block">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email" placeholder="johndoe@example.com"/>
                                 </div>
                             </div>
-                            <div class="form-info form-info-block">
-                                <label for="email">Email</label>
-                                <input type="email" name="email" id="email" placeholder="johndoe@example.com"/>
-                            </div>
-                            </div>
+                            
+                            
                            
                         </div>
                         <div class="payment-information-container">
                             <div class="payment-information">
-                                <div>
-                                <p>Your payment information</p>
+                                <div class="basic-information-item">
+                                    <p class="item-number">2</p>
+                                    <p>Your Payment Information</p>
+                                </div>
                             </div>
-                            <div class="form-info form-info-creditcard">
+                            <div class="form-info form-info-block">
                                 <label for="creditcard">Credit Card</label>
-                                <input type="text" name="creditcard" id="creditcard" placeholder="card Number"/>
+                                <input type="text" name="creditcard" id="creditcard" placeholder="Card Number  MM/YY   CVV"/>
                             </div>
-                            </div>
+                      
                            
                         </div>
                         <div class="buy-button">
-                            <button>Buy Pusher</button>
+                            <button>Buy WP Pusher</button>
                         </div>
                         
-                        <div class="help">
-                            <p>Need help? Don't hesitate to contact support!</p>
-                            <p>Powered by Stripe</p>
+                        <div class="help-container">
+                            <div class="help">
+                                <p class="contact"><strong>Need any help?</strong><span>Don't hesitate to contact<br/> support!</span></p>
+                                <img src="./Assets/img/powered_by_stripe.png" class="powered-by" alt="stripe logo"/>
+                            </div>
                         </div>
+                       
                     </form>
                 
                 </div>
                 <div class="section-two">
-                    <h3>Freelancer</h3>
+                    <p>Freelancer</p>
                     <div class="freelancertitle">
                          <p><span class="price"><sub>$</sub>99<sup>/year</sup></span></p>
                     </div>
                     
 
-                    <p>Automatically renews after 1 year</p>
-
-                    <ul>
-                        <l1>Use 5 client sites</l1>
-                        <l1>Private Repositories</l1>
-                        <l1>Email Support</l1>
-                    </ul>
+                    <p class="renewal"><i>Automatically renews<br/> after 1 year</p></i>
+                    <div class="packages">
+                    
+                        <p>Use 5 client sites</p>
+                        <p>Private Repositories</p>
+                        <p>Email Support</p>
+                 
+                    </div>
+                    
                     <div class="need-sites">
-                        <p>Need 20 client sites</p>
+                        <p>Need <strong>20</strong> client sites?</p>
                         <a href="#">Switch to Agency plan</a>
                     </div>
                     <div class="horrible-deal">
-                        FTP is horrible to deal with. WP Pusher solves that issue, and the customer support is awesome!
+                        FTP is horrible to deal with. <strong>WP Pusher </strong>solves that issue, and the customer support is awesome!
                     </div>
                     <div class="client">
                         <figure>
-                            <img src="./Assets//img/Bitmap.png" alt="">
+                            <img src="./Assets/img/Bitmap.png" alt="">
                         </figure>
                          <p>Kirk Beard</p>
                     </div>
