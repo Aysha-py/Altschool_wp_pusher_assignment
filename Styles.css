@@ -331,7 +331,13 @@ align-items: center;
   display: none;
 }
 
+
 @media only screen and (max-width:720px){
+    nav{
+  
+  padding:20px;
+
+}
     .hambuger_icon{
     display: block;
     font-size: 24px;
@@ -353,7 +359,7 @@ align-items: center;
 }
 #checkout-container{
   margin: 0 auto;
-  padding: 20px 40px;
+  padding: 10px 20px;
   background-color: #fff;
 }
 .checkout-sections{
@@ -406,5 +412,8 @@ input#email{
 header::after {
   width: 100%;
 
+}
+.payment-information-container::after{
+margin-block-start: 41px;
 }
 }
