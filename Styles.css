@@ -58,12 +58,25 @@ nav{
     display: flex;
     justify-content: space-around;
     list-style: none;
+    align-content: flex-end;
+    margin-left: auto;
+   
   
 }
+.navigation li{
+  padding: 10px 20px;
+  font-size: 16px;
+
+}
+.navigation li:last-child{
+  border: 2.5px solid;
+  border-radius: 6px;
+
+}
 .navigation li:hover{
-  border: 1px solid;
+  border: 2.5px  solid;
   border-radius: 8px;
-  transition: border 0.5ms ease-out;
+  transition: border 2.0ms ease-out;
 }
 
 .hambuger_icon{
