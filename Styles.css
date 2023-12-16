@@ -59,13 +59,12 @@ nav{
     justify-content: space-around;
     list-style: none;
     align-content: flex-end;
-    margin-left: auto;
+    /* margin-left: auto; */
    
   
 }
 .navigation li{
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 4px 10px;
 
 }
 .navigation li:last-child{
@@ -173,7 +172,7 @@ font-family: 'Lato', sans-serif;
 {
   height: 36px;
   background-color:rgba(237, 239, 242, 1);
-  border: 1px solid #000;
+  border: none;
   width: 100%;
   padding: 16px 13px;
   border: 0;
@@ -343,6 +342,7 @@ align-items: center;
 .mobile-help{
   display: none;
 }
+
 
 
 @media only screen and (max-width:720px){
