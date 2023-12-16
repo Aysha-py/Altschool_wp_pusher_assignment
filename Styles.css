@@ -15,7 +15,8 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   color: #000;
-  background-color:rgb(244, 253, 252) 
+  background-color:rgb(244, 253, 252) ;
+  
 }
 
 img, picture, video, canvas, svg {
@@ -163,6 +164,7 @@ font-family: 'Lato', sans-serif;
   width: 100%;
   padding: 16px 13px;
   border: 0;
+  border-radius: 5px;
 }
 .form-info-grid input{
  margin-block-start: 10px;
@@ -177,6 +179,9 @@ font-family: 'Lato', sans-serif;
   font-size: 14px;
   font-weight: 500;
   color: #1D2C3C;
+}
+input#email{
+ width:80%;
 }
 .buy-button button{
   width: 100%;
@@ -198,9 +203,8 @@ justify-content: center;
 align-items: center;
 }
  .help{
-  margin: 0 auto;
-  
-
+ display: grid;
+place-items: center;
  }
 
 .contact::before{
@@ -217,8 +221,6 @@ align-items: center;
 }
 .powered-by{
   margin-block-start: 34px;
-  align-content: center;
- margin-inline-start: 102px;
 }
 
  .section-two{
@@ -323,6 +325,9 @@ align-items: center;
     display: inline-block;
   vertical-align: middle;
 }
+.mobile-help{
+  display: none;
+}
 
 @media only screen and (max-width:720px){
     .hambuger_icon{
@@ -417,5 +422,23 @@ align-items: center;
 
 .section-two{
   width: 100%;
+}
+.section-one,.section-two{
+
+    border-radius:0;
+}
+.mobile-help{
+  display: block;
+}
+.desktop-help{
+  display: none;
+}
+.help{
+border: 1px solid red;
+display: grid;
+place-items: center;
+}
+.powered-by{
+ 
 }
 }
